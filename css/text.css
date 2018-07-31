@@ -8,12 +8,12 @@ body,html{
 			width: 100%;
 		}
 		#head{			
-			height: 50px;
+			height: 100px;
 			background-color: #e8e8e8;			
-			font-size: 18px;
+			font-size: 40px;
 			font-family: "YouYuan";
 			text-align: center;
-			line-height: 50px;
+			line-height: 100px;
 			margin-bottom: 10px;
 		}
 		#goods li{
@@ -23,24 +23,24 @@ body,html{
 			padding: 0
 		}
 		#goods ul li{
-			height: 100px;
-			margin-bottom: 10px;
+			height: 250px;
+			margin-bottom: 30px;
 			position: relative;
 		}
 		#goods ul li .choice{
 			position: absolute;
-			top: 10px;
+			top: 20px;
 			left: -2px;
-			width: 15px;
-			height: 15px;
+			width: 35px;
+			height: 35px;
 			display: inline-block;
-			margin-left: 5px;
+			margin-left: 15px;
 			border: 1px solid #888888;
 			color: #FFFFFF;
 			border-radius: 50%;
-			font-size: 10px;
+			font-size: 18px;
 			text-align: center;
-			line-height: 13px;
+			line-height: 35px;
 			cursor: pointer;
 		}
 		#goods ul li .choice[data-sel='false']{
@@ -67,9 +67,9 @@ body,html{
 			color:'#ffffff';
 		}
 		#goods ul li img{
-			margin-left: 20px;
+			margin-left: 57px;
 			width: 22%;
-			height: 100px;
+			height: 250px;
 			position: absolute;
 			top:0;
 		}
@@ -80,10 +80,10 @@ body,html{
 		}
 		#goods ul li div p{
 			font-family: "YouYuan";
-			font-size: 14px;
+			font-size: 30px;
 		}
 		#goods ul li div p:nth-child(1){
-			padding:10px 0;
+			padding:25px 0;
 		}
 		#goods ul li div p:nth-child(2){
 			padding-bottom:10px;	
@@ -94,7 +94,8 @@ body,html{
 			float: right;
 		}
 		#goods ul li div p:nth-child(3){				
-			margin-right: 5px;		
+			margin-right: 5px;	
+			margin-top:30px;
 		}
 		#goods ul li div p:nth-child(3) .glyphicon-trash{
 			display: inline-block;
@@ -106,11 +107,11 @@ body,html{
 			display: inline-block;
 			border:1px solid #B8B8B8;
 			float: left;
-			width: 25px;
-			height: 20px;	
+			width: 60px;
+			height: 40px;	
 			text-align: center;
-			font-size: 12px;
-			line-height: 20px;
+			font-size: 24px;
+			line-height: 40px;
 		}
 		#goods ul li div p .count span:nth-child(1),span:nth-child(3){
 			cursor: pointer;
@@ -196,50 +197,49 @@ body,html{
 		}	
 		.del_show .delBox{
 			display: block;
-			width: 250px;
-			height: 120px;
+			width: 700px;
+			height: 300px;
 			background-color: #ffffff;
-			margin: 100px auto;
+			margin: 200px auto;
 			border-radius: 5px;
 			position: relative;
 			z-index: 3;
 		}
 		.del_show .delBox p{
 			display: block;
-			width: 250px;
-			height: 50px;
-			font-size: 14px;
+			width: 700px;
+			height: 200px;
+			font-size: 35px;
 			font-family: "YouYuan";
 			font-weight: bold;
 			text-align: center;
-			line-height: 50px;
-			margin-bottom: 15px;
+			line-height: 150px;
 			position: absolute;
 			z-index: 3;
 		}
 		.del_show .delBox span{
 			display: inline-block;		
-			width: 80px;
-			height: 26px;
+			width: 200px;
+			height: 60px;
 			background-color: red;
 			border-radius: 2px;
-			font-size: 13px;
+			font-size: 30px;
 			font-family: "YouYuan";
 			font-weight: bold;
 			text-align: center;
-			line-height: 26px;
-			margin-left: 30px;
+			line-height: 60px;
+			margin-left: 80px;
 			cursor: pointer;
 			position: absolute;
 		}
 		.del_show .delBox .ok{
 			background-color: #A8A8A8;
-			top: 60px;
+			top: 150px;
 			left: 0px;			
 		}
 		.del_show .delBox .cancel{
 			background-color: #FF0033;
 			color: #ffffff;
-			top: 60px;
-			left: 110px;
+			top: 150px;
+			left: 335px;
 		}

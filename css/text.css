@@ -123,6 +123,7 @@ body,html{
 			height: 100%;
 			border: none;
 			text-align: center;
+			border-bottom:1px solid #B8B8B8;
 		}
 		#foot{
 			position: fixed;

@@ -30,17 +30,17 @@ body,html{
 		#goods ul li .choice{
 			position: absolute;
 			top: 20px;
-			left: -2px;
-			width: 35px;
-			height: 35px;
+			left: 0;
+			width: 45px;
+			height: 45px;
 			display: inline-block;
 			margin-left: 15px;
 			border: 1px solid #888888;
 			color: #FFFFFF;
 			border-radius: 50%;
-			font-size: 18px;
+			font-size: 26px;
 			text-align: center;
-			line-height: 35px;
+			line-height: 45px;
 			cursor: pointer;
 		}
 		#goods ul li .choice[data-sel='false']{
@@ -67,7 +67,7 @@ body,html{
 			color:'#ffffff';
 		}
 		#goods ul li img{
-			margin-left: 57px;
+			margin-left: 70px;
 			width: 22%;
 			height: 250px;
 			position: absolute;
@@ -80,28 +80,30 @@ body,html{
 		}
 		#goods ul li div p{
 			font-family: "YouYuan";
-			font-size: 30px;
+			font-size: 34px;
 		}
 		#goods ul li div p:nth-child(1){
-			padding:25px 0;
+			padding:25px 10px;
 		}
 		#goods ul li div p:nth-child(2){
 			padding-bottom:10px;	
-			margin-right: 5px;		
+			margin-right: 10px;		
 		}
 		#goods ul li div p:nth-child(2) .sum_price{
 			display: inline-block;
 			float: right;
 		}
 		#goods ul li div p:nth-child(3){				
-			margin-right: 5px;	
-			margin-top:30px;
+			margin-right: 60px;	
+			margin-top:20px;
+			margin-left:20px;
 		}
 		#goods ul li div p:nth-child(3) .glyphicon-trash{
 			display: inline-block;
 			float: right;
 			color: #888888;
 			cursor: pointer;
+			font-size:42px;
 		}
 		#goods ul li div p:nth-child(3) .count span{
 			display: inline-block;
@@ -126,34 +128,38 @@ body,html{
 			position: fixed;
 			background-color: #FFFFFF;
 			bottom:0;
-			height: 35px;			
+			height: 125px;			
 			border:1px solid #e8e8e8;
 			position: absolute;
 		}
 		#foot .choice{
-			margin-top: 10px;
-			width: 15px;
-			height: 15px;
+			margin-top: 35px;
+			margin-right:35px;
+			width: 45px;
+			height: 45px;
 			display: inline-block;
-			margin-left: 5px;
+			margin-left: 50px;
 			border: 1px solid #888888;
 			color: #FFFFFF;
 			border-radius: 50%;
-			font-size: 10px;
+			font-size: 26px;
 			text-align: center;
-			line-height: 13px;
+			line-height: 45px;
 			cursor: pointer;
+		}
+		#foot .selAll{
+			font-size:42px;
 		}
 		#foot a{
 			display: inline-block;
 			color: #ffffff;
-			font-size: 13px;
-			width: 70px;
-			height: 35px;
+			font-size: 45px;
+			width: 200px;
+			height: 120px;
 			background-color: #FF0033;
 			text-decoration-line: none;
 			font-weight: bold;
-			line-height: 35px;
+			line-height: 120px;
 			text-align: center;
 			position: absolute;
 			right: 0;
@@ -197,8 +203,8 @@ body,html{
 		}	
 		.del_show .delBox{
 			display: block;
-			width: 700px;
-			height: 300px;
+			width: 800px;
+			height: 450px;
 			background-color: #ffffff;
 			margin: 200px auto;
 			border-radius: 5px;
@@ -207,39 +213,40 @@ body,html{
 		}
 		.del_show .delBox p{
 			display: block;
-			width: 700px;
+			width: 800px;
 			height: 200px;
-			font-size: 35px;
+			font-size: 45px;
 			font-family: "YouYuan";
 			font-weight: bold;
 			text-align: center;
 			line-height: 150px;
 			position: absolute;
+			top:60px;
 			z-index: 3;
 		}
 		.del_show .delBox span{
 			display: inline-block;		
-			width: 200px;
-			height: 60px;
+			width: 250px;
+			height: 90px;
 			background-color: red;
-			border-radius: 2px;
-			font-size: 30px;
+			border-radius: 5px;
+			font-size: 50px;
 			font-family: "YouYuan";
 			font-weight: bold;
 			text-align: center;
-			line-height: 60px;
+			line-height: 90px;
 			margin-left: 80px;
 			cursor: pointer;
 			position: absolute;
 		}
 		.del_show .delBox .ok{
 			background-color: #A8A8A8;
-			top: 150px;
+			top: 230px;
 			left: 0px;			
 		}
 		.del_show .delBox .cancel{
 			background-color: #FF0033;
 			color: #ffffff;
-			top: 150px;
-			left: 335px;
+			top: 230px;
+			left: 385px;
 		}

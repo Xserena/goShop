@@ -1,0 +1,28 @@
+{
+	"allShops":{
+		"totalMoney":0,
+		"shopList":[
+			{
+				"shopId":"1001",
+				"shopName":"Apple/苹果 MacBook Air 笔记本电脑13.3英寸金属轻薄便携 正品",
+				"shopPrice":5988.00,
+				"shopNumber":1,
+				"shopImage":"img/computer.jpg"
+			},
+			{
+				"shopId":"1002",
+				"shopName":"Apple/苹果 iPhone 8 Plus",
+				"shopPrice":6630.00,
+				"shopNumber":1,
+				"shopImage":"img/phone.jpg"
+			},
+			{
+				"shopId":"1003",
+				"shopName":"Sony/索尼 DSC-RX100M5 黑卡五代 数码相机 RX100V",
+				"shopPrice":6199.00,
+				"shopNumber":1,
+				"shopImage":"img/sony.jpg"
+			}
+		]
+	}
+}
